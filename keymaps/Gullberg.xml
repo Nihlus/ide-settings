@@ -1,15 +1,10 @@
 <keymap version="1" name="Gullberg" parent="ReSharper">
-  <action id="Arrangement.Alias.Rule.Edit" />
-  <action id="Arrangement.Rule.Edit" />
-  <action id="Build">
-    <keyboard-shortcut first-keystroke="f8" />
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <mouse-shortcut keystroke="button4" />
   </action>
   <action id="BuildSolutionAction">
-    <keyboard-shortcut first-keystroke="shift ctrl b" />
-    <keyboard-shortcut first-keystroke="f7" />
-  </action>
-  <action id="Clean">
-    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="CleanSolutionAction">
     <keyboard-shortcut first-keystroke="f6" />
@@ -18,11 +13,20 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
-  <action id="CompileDirty" />
-  <action id="Console.TableResult.EditValue">
-    <keyboard-shortcut first-keystroke="enter" />
-    <keyboard-shortcut first-keystroke="alt enter" />
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
+  <action id="CollapseAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="CompileDirty" />
   <action id="ContextHelp" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt f5" />
@@ -35,11 +39,13 @@
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="shift f12" />
   </action>
-  <action id="ForceStepInto">
-    <keyboard-shortcut first-keystroke="shift f11" />
-  </action>
+  <action id="ForceStepInto" />
   <action id="ForceStepOver">
     <keyboard-shortcut first-keystroke="shift f8" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
+    <mouse-shortcut keystroke="button5" />
   </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl b" />
@@ -50,6 +56,9 @@
   <action id="GotoPreviousError" />
   <action id="GotoTest" />
   <action id="GotoTypeDeclaration" />
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
   <action id="Images.ShowThumbnails" />
   <action id="Move">
     <keyboard-shortcut first-keystroke="f1" />
@@ -62,22 +71,19 @@
   </action>
   <action id="NextDiff" />
   <action id="RebuildSolutionAction">
-    <keyboard-shortcut first-keystroke="f8" />
-  </action>
-  <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="r" />
-    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
   <action id="Resume" />
+  <action id="ShowBookmarks">
+    <keyboard-shortcut first-keystroke="shift f11" />
+  </action>
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="shift ctrl f11" />
   </action>
-  <action id="StepInto">
-    <keyboard-shortcut first-keystroke="f11" />
-  </action>
+  <action id="StepInto" />
   <action id="StepOut" />
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f10" />
@@ -98,6 +104,11 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="Switcher" />
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
   <action id="UML.ApplyCurrentLayout" />
-  <action id="XDebugger.SetValue" />
+  <action id="UML.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
 </keymap>

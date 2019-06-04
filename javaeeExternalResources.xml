@@ -1,0 +1,7 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://www.nlog-project.org/schemas/NLog.xsd" location="$USER_HOME$/.Rider2018.1/system/extResources/ebda59dc_NLog.xsd" />
+    <ignored-resource url="http://schemas.android.com/apk/res-auto" />
+    <ignored-resource url="http://schemas.android.com/apk/res/android" />
+  </component>
+</application>
