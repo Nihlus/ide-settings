@@ -5,6 +5,7 @@
     <keyboard-shortcut first-keystroke="ctrl subtract" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="BraceOrQuoteOut" />
   <action id="BuildSolutionAction">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
@@ -40,7 +41,10 @@
   </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="EditorChooseLookupItemReplace" />
   <action id="EditorSelectWord" />
+  <action id="EditorTab" />
+  <action id="ExpandLiveTemplateByTab" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="shift f12" />
@@ -70,13 +74,15 @@
   <action id="Move">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
-  <action id="MoveTabDown">
-    <keyboard-shortcut first-keystroke="shift ctrl tab" />
-  </action>
-  <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="ctrl tab" />
-  </action>
   <action id="NextDiff" />
+  <action id="NextParameter" />
+  <action id="NextTemplateParameter" />
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="PrevParameter" />
+  <action id="PrevTemplateParameter" />
+  <action id="PreviousTemplateVariable" />
   <action id="RebuildSolutionAction">
     <keyboard-shortcut first-keystroke="f7" />
   </action>
@@ -90,6 +96,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl h" />
   </action>
   <action id="Resume" />
+  <action id="SearchEverywhere.CompleteCommand" />
+  <action id="SearchEverywhere.NextTab" />
+  <action id="SearchEverywhere.PrevTab" />
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="f2" />
   </action>
