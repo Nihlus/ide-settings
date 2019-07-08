@@ -3,6 +3,7 @@
     <blacklists>
       <blacklist language="C/C++">
         <added pattern="pa_obsolete(message)" />
+        <added pattern="std::unique_ptr::unique_ptr(__p)" />
       </blacklist>
     </blacklists>
   </component>
