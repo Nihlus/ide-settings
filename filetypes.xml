@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="pde" type="ObjectiveC" />
       <mapping ext="ino" type="ObjectiveC" />
+      <mapping pattern=".clang_complete" type="PLAIN_TEXT" />
       <mapping pattern="qmldir" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE-NOT-GPL" type="PLAIN_TEXT" />
       <mapping ext="token" type="PLAIN_TEXT" />
