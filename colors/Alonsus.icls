@@ -4,7 +4,7 @@
     <property name="created">2019-06-04T06:25:49</property>
     <property name="ide">Rider</property>
     <property name="ideVersion">2019.1.1.0.0</property>
-    <property name="modified">2019-06-04T06:26:12</property>
+    <property name="modified">2019-07-08T12:36:39</property>
     <property name="originalScheme">Alonsus</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -248,6 +248,9 @@
         <option name="FOREGROUND" value="d59c84" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="bcb66b" />

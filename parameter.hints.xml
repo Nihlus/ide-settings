@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="C/C++">
+        <added pattern="pa_obsolete(message)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
