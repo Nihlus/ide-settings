@@ -1,8 +1,11 @@
 <keymap version="1" name="Gullberg" parent="ReSharper">
+  <action id="Arrangement.Alias.Rule.Edit" />
+  <action id="Arrangement.Rule.Edit" />
   <action id="Back">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="BraceOrQuoteOut" />
   <action id="BuildSolutionAction">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
@@ -27,6 +30,10 @@
     <keyboard-shortcut first-keystroke="ctrl minus" />
   </action>
   <action id="CompileDirty" />
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
   <action id="ContextHelp" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt f5" />
@@ -34,7 +41,17 @@
   </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="EditorChooseLookupItem">
+    <keyboard-shortcut first-keystroke="enter" />
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="EditorChooseLookupItemReplace" />
+  <action id="EditorIndentLineOrSelection">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
   <action id="EditorSelectWord" />
+  <action id="EditorTab" />
+  <action id="ExpandLiveTemplateByTab" />
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="shift f12" />
@@ -60,23 +77,38 @@
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
   <action id="Images.ShowThumbnails" />
+  <action id="MethodHierarchy" />
   <action id="Move">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
-  <action id="MoveTabDown">
-    <keyboard-shortcut first-keystroke="shift ctrl tab" />
-  </action>
-  <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="ctrl tab" />
-  </action>
   <action id="NextDiff" />
+  <action id="NextParameter" />
+  <action id="NextTemplateParameter" />
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="PrevParameter" />
+  <action id="PrevTemplateParameter" />
+  <action id="PreviousTemplateVariable" />
   <action id="RebuildSolutionAction">
     <keyboard-shortcut first-keystroke="f7" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
   <action id="Resume" />
+  <action id="SearchEverywhere.CompleteCommand" />
+  <action id="SearchEverywhere.NextTab" />
+  <action id="SearchEverywhere.PrevTab" />
+  <action id="ShelvedChanges.Rename">
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
   <action id="ShowBookmarks">
     <keyboard-shortcut first-keystroke="shift f11" />
   </action>
@@ -111,4 +143,5 @@
   <action id="UML.ZoomOut">
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
+  <action id="XDebugger.SetValue" />
 </keymap>
