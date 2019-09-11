@@ -1,12 +1,4 @@
-<scheme name="Alonsus" version="142" parent_scheme="Darcula">
-  <option name="FONT_SCALE" value="1.0" />
-  <metaInfo>
-    <property name="created">2017-06-26T20:02:02</property>
-    <property name="ide">Rider</property>
-    <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2017-09-19T21:29:28</property>
-    <property name="originalScheme">Visual Assist (Android Studio)</property>
-  </metaInfo>
+<scheme name="Visual Assist (Android Studio)" version="142" parent_scheme="Darcula">
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Monospaced" />
   <colors>
@@ -63,29 +55,6 @@
       <value>
         <option name="FOREGROUND" value="bc63c4" />
         <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
-    <option name="DEFAULT_DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="3d904a" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEFAULT_DOC_COMMENT_TAG">
-      <value>
-        <option name="FOREGROUND" value="3d904a" />
-        <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
-    <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
-      <value>
-        <option name="FOREGROUND" value="d59c84" />
-      </value>
-    </option>
-    <option name="DEFAULT_DOC_MARKUP">
-      <value>
-        <option name="FOREGROUND" value="3d904a" />
       </value>
     </option>
     <option name="DEFAULT_DOT">
@@ -187,12 +156,6 @@
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="bbffbb" />
-      </value>
-    </option>
-    <option name="GLSL.PREPROCESSOR_DIRECTIVE">
-      <value>
-        <option name="FOREGROUND" value="569bd5" />
-        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="GLSL.TYPE_SPECIFIER">
@@ -308,27 +271,9 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="ReSharper.DELEGATE_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="fdd601" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
-    <option name="ReSharper.ENUM_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="fdd601" />
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
-    </option>
     <option name="ReSharper.EVENT_IDENTIFIER">
       <value>
         <option name="FOREGROUND" value="ffbf00" />
-      </value>
-    </option>
-    <option name="ReSharper.EXTENSION_METHOD_IDENTIFIER">
-      <value>
-        <option name="FOREGROUND" value="ff8000" />
-        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="ReSharper.NAMESPACE_IDENTIFIER">
