@@ -1,13 +1,28 @@
-<keymap version="1" name="Gullberg" parent="ReSharper">
-  <action id="Arrangement.Alias.Rule.Edit" />
-  <action id="Arrangement.Rule.Edit" />
-  <action id="Back">
-    <keyboard-shortcut first-keystroke="ctrl subtract" />
-    <mouse-shortcut keystroke="button4" />
+<keymap version="1" name="Gullberg">
+  <action id="$Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
-  <action id="BraceOrQuoteOut" />
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="$Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="$Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="$Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
   <action id="BuildSolutionAction">
-    <keyboard-shortcut first-keystroke="f8" />
+    <keyboard-shortcut first-keystroke="shift ctrl b" />
+    <keyboard-shortcut first-keystroke="f7" />
   </action>
   <action id="CleanSolutionAction">
     <keyboard-shortcut first-keystroke="f6" />
@@ -16,24 +31,7 @@
     <keyboard-shortcut first-keystroke="ctrl f4" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
-  <action id="CollapseAll">
-    <keyboard-shortcut first-keystroke="ctrl subtract" />
-  </action>
-  <action id="CollapseAllRegions">
-    <keyboard-shortcut first-keystroke="shift ctrl minus" />
-  </action>
-  <action id="CollapseExpandableComponent">
-    <keyboard-shortcut first-keystroke="shift enter" />
-    <keyboard-shortcut first-keystroke="ctrl subtract" />
-  </action>
-  <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="ctrl minus" />
-  </action>
   <action id="CompileDirty" />
-  <action id="Console.TableResult.EditValue">
-    <keyboard-shortcut first-keystroke="enter" />
-    <keyboard-shortcut first-keystroke="alt enter" />
-  </action>
   <action id="ContextHelp" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="alt f5" />
@@ -41,28 +39,111 @@
   </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
-  <action id="EditorChooseLookupItem">
-    <keyboard-shortcut first-keystroke="enter" />
-    <keyboard-shortcut first-keystroke="tab" />
+  <action id="Editor Copy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
-  <action id="EditorChooseLookupItemReplace" />
-  <action id="EditorIndentLineOrSelection">
+  <action id="Editor Cut">
+    <keyboard-shortcut first-keystroke="ctrl x" />
+  </action>
+  <action id="Editor Delete">
+    <keyboard-shortcut first-keystroke="delete" />
+  </action>
+  <action id="Editor Paste">
+    <keyboard-shortcut first-keystroke="ctrl v" />
+  </action>
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+  </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="Editor Undo">
+    <keyboard-shortcut first-keystroke="ctrl z" />
+  </action>
+  <action id="EditorBackSpace">
+    <keyboard-shortcut first-keystroke="back_space" />
+    <keyboard-shortcut first-keystroke="shift back_space" />
+  </action>
+  <action id="EditorChooseLookupItemCompleteStatement">
     <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="EditorCopy">
+    <keyboard-shortcut first-keystroke="ctrl c" />
+  </action>
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift down" />
+  </action>
+  <action id="EditorEnter">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="EditorEscape">
+    <keyboard-shortcut first-keystroke="escape" />
+  </action>
+  <action id="EditorLeft">
+    <keyboard-shortcut first-keystroke="left" />
+  </action>
+  <action id="EditorLeftWithSelection">
+    <keyboard-shortcut first-keystroke="shift left" />
+  </action>
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+  </action>
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="page_down" />
+  </action>
+  <action id="EditorPageDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift page_down" />
+  </action>
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="page_up" />
+  </action>
+  <action id="EditorPageUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift page_up" />
+  </action>
+  <action id="EditorRight">
+    <keyboard-shortcut first-keystroke="right" />
+  </action>
+  <action id="EditorRightWithSelection">
+    <keyboard-shortcut first-keystroke="shift right" />
   </action>
   <action id="EditorSelectWord" />
-  <action id="EditorTab" />
-  <action id="ExpandLiveTemplateByTab" />
+  <action id="EditorTab">
+    <keyboard-shortcut first-keystroke="tab" />
+  </action>
+  <action id="EditorUnindentSelection">
+    <keyboard-shortcut first-keystroke="shift tab" />
+  </action>
+  <action id="EditorUp">
+    <keyboard-shortcut first-keystroke="up" />
+  </action>
+  <action id="EditorUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift up" />
+  </action>
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="ctrl f" />
+  </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="shift f12" />
   </action>
-  <action id="ForceStepInto" />
+  <action id="ForceStepInto">
+    <keyboard-shortcut first-keystroke="shift f11" />
+  </action>
   <action id="ForceStepOver">
     <keyboard-shortcut first-keystroke="shift f8" />
-  </action>
-  <action id="Forward">
-    <keyboard-shortcut first-keystroke="shift ctrl subtract" />
-    <mouse-shortcut keystroke="button5" />
   </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl b" />
@@ -73,49 +154,39 @@
   <action id="GotoPreviousError" />
   <action id="GotoTest" />
   <action id="GotoTypeDeclaration" />
-  <action id="Images.Editor.ZoomOut">
-    <keyboard-shortcut first-keystroke="ctrl subtract" />
-  </action>
   <action id="Images.ShowThumbnails" />
-  <action id="MethodHierarchy" />
   <action id="Move">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
   <action id="NextDiff" />
-  <action id="NextParameter" />
-  <action id="NextTemplateParameter" />
-  <action id="NextTemplateVariable">
-    <keyboard-shortcut first-keystroke="enter" />
-  </action>
-  <action id="PrevParameter" />
-  <action id="PrevTemplateParameter" />
-  <action id="PreviousTemplateVariable" />
   <action id="RebuildSolutionAction">
-    <keyboard-shortcut first-keystroke="f7" />
+    <keyboard-shortcut first-keystroke="f8" />
   </action>
-  <action id="RenameElement">
-    <keyboard-shortcut first-keystroke="f2" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt i" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
-  <action id="ReplaceInPath">
-    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  <action id="Replace">
+    <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
   <action id="Resume" />
-  <action id="SearchEverywhere.CompleteCommand" />
-  <action id="SearchEverywhere.NextTab" />
-  <action id="SearchEverywhere.PrevTab" />
-  <action id="ShelvedChanges.Rename">
-    <keyboard-shortcut first-keystroke="f2" />
-  </action>
-  <action id="ShowBookmarks">
-    <keyboard-shortcut first-keystroke="shift f11" />
+  <action id="SaveAll">
+    <keyboard-shortcut first-keystroke="ctrl s" />
   </action>
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="shift ctrl f11" />
   </action>
-  <action id="StepInto" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
   <action id="StepOut" />
   <action id="StepOver">
     <keyboard-shortcut first-keystroke="f10" />
@@ -136,12 +207,8 @@
     <keyboard-shortcut first-keystroke="shift alt up" />
   </action>
   <action id="Switcher" />
-  <action id="ToggleBookmark">
-    <keyboard-shortcut first-keystroke="f11" />
-  </action>
   <action id="UML.ApplyCurrentLayout" />
-  <action id="UML.ZoomOut">
-    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  <action id="XDebugger.CopyValue">
+    <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
-  <action id="XDebugger.SetValue" />
 </keymap>
