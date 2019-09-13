@@ -171,11 +171,17 @@
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="NextDiff" />
+  <action id="NextTemplateVariable">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
   <action id="RebuildSolutionAction">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt i" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
