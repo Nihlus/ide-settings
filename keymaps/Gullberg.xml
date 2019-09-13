@@ -64,7 +64,7 @@
     <keyboard-shortcut first-keystroke="back_space" />
     <keyboard-shortcut first-keystroke="shift back_space" />
   </action>
-  <action id="EditorChooseLookupItemCompleteStatement">
+  <action id="EditorChooseLookupItem">
     <keyboard-shortcut first-keystroke="tab" />
     <keyboard-shortcut first-keystroke="enter" />
   </action>
@@ -135,6 +135,9 @@
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
+  <action id="FindInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+  </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="alt f7" />
     <keyboard-shortcut first-keystroke="shift f12" />
@@ -177,9 +180,15 @@
   <action id="Replace">
     <keyboard-shortcut first-keystroke="ctrl h" />
   </action>
+  <action id="ReplaceInPath">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
   <action id="Resume" />
   <action id="SaveAll">
     <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
+  <action id="ShowIntentionActions">
+    <keyboard-shortcut first-keystroke="alt enter" />
   </action>
   <action id="SmartStepInto">
     <keyboard-shortcut first-keystroke="shift ctrl f11" />
