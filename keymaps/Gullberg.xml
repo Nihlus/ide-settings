@@ -229,6 +229,9 @@
   </action>
   <action id="Switcher" />
   <action id="UML.ApplyCurrentLayout" />
+  <action id="Vcs.Push">
+    <keyboard-shortcut first-keystroke="shift ctrl k" />
+  </action>
   <action id="XDebugger.CopyValue">
     <keyboard-shortcut first-keystroke="ctrl c" />
   </action>
