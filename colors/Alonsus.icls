@@ -4,9 +4,10 @@
     <property name="created">2017-06-26T20:02:02</property>
     <property name="ide">Rider</property>
     <property name="ideVersion">2017.1.0.0</property>
-    <property name="modified">2017-09-19T21:29:28</property>
+    <property name="modified">2019-09-17T10:58:08</property>
     <property name="originalScheme">Visual Assist (Android Studio)</property>
   </metaInfo>
+  <option name="LINE_SPACING" value="1.2" />
   <option name="EDITOR_FONT_SIZE" value="12" />
   <option name="EDITOR_FONT_NAME" value="Monospaced" />
   <colors>
@@ -247,6 +248,10 @@
         <option name="FOREGROUND" value="d59c84" />
       </value>
     </option>
+    <option name="JS.GLOBAL_FUNCTION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
+    <option name="JS.GLOBAL_VARIABLE" baseAttributes="DEFAULT_GLOBAL_VARIABLE" />
+    <option name="JS.INSTANCE_MEMBER_FUNCTION" baseAttributes="DEFAULT_INSTANCE_METHOD" />
+    <option name="JS.LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="bcb66b" />
