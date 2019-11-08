@@ -154,6 +154,9 @@
   <action id="ForceStepOver">
     <keyboard-shortcut first-keystroke="shift f8" />
   </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
