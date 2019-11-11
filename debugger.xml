@@ -5,6 +5,11 @@
       <evaluation-dialog-mode>CODE_FRAGMENT</evaluation-dialog-mode>
     </general>
     <debuggers>
+      <debugger id="ObjectiveC">
+        <configuration>
+          <option name="HEX_FORMATTING_ENABLED" value="true" />
+        </configuration>
+      </debugger>
       <debugger id="javascript">
         <configuration>
           <custom-object-presentation />
